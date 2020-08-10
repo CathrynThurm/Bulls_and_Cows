@@ -54,7 +54,7 @@ FString FBullCowGame::GiveHint()
 			message = "It lives in a colony.";
 		}
 		else if (CurrentTry == 5) {
-			message = "It's an ant idiot. I just don't want you to loose.";
+			message = "It can life 10-50 times its body weight.";
 		}
 	}
 	if (UserWordLength == 4) {
@@ -68,16 +68,16 @@ FString FBullCowGame::GiveHint()
 			message = "You learn to do it when you are a baby.";
 		}
 		else if (CurrentTry == 4) {
-			message = "Its something that makes noise.";
+			message = "Its not 'sing.'";
 		}
 		else if (CurrentTry == 5) {
-			message = "Your tongue helps. ;)";
+			message = "Your tongue helps.";
 		}
 		else if (CurrentTry == 6) {
-			message = "You use your throat too.";
+			message = "You use your voice box too.";
 		}
 		else if (CurrentTry == 7) {
-			message = "I swear its not 'oral' lol.";
+			message = "Its how you communicate.";
 		}
 	}
 	if (UserWordLength == 5) {
@@ -94,27 +94,27 @@ FString FBullCowGame::GiveHint()
 			message = "It splatters grease everywhere.";
 		}
 		else if (CurrentTry == 5) {
-			message = "DO NOT COOK THIS NAKED.";
+			message = "You can use this greese to cook other things.";
 		}
 		else if (CurrentTry == 6) {
 			message = "It comes from a pig.";
 		}
 		else if (CurrentTry == 7) {
-			message = "Its not bacon.... *wink, wink";
+			message = "Its the fatty meat on a pig that you eat with eggs.";
 		}
 	}
 	if (UserWordLength == 6) {
 		if (CurrentTry == 1) {
-			message = "A common vacine";
+			message = "A common disease to get vaccinated against.";
 		}
 		else if (CurrentTry == 2) {
-			message = "You get it if animals bite you.";
+			message = "You get it if you are bitten.";
 		}
 		else if (CurrentTry == 3) {
-			message = "Like bats. Defintely get a shot after getting bit by a bat.";
+			message = "The disease can come from bats, raccons, or even dogs.";
 		}
 		else if (CurrentTry == 4) {
-			message = "It begins with the letter 'R'";
+			message = "This disease is why Old Yeller had to be put down.";
 		}
 		else if (CurrentTry == 5) {
 			message = "It makes animals froth at the mouth.";
@@ -123,7 +123,7 @@ FString FBullCowGame::GiveHint()
 			message = "It rhymes with 'babies.'";
 		}
 		else if (CurrentTry == 7) {
-			message = "These fucking people. omg.";
+			message = "I really hope you got it!.";
 		}
 	}
 	return message;
