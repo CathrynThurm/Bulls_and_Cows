@@ -137,6 +137,6 @@ void PrintGameSummary()
 		std::cout << "\nYOU WIN!!\n";
 	}
 	else {
-		std::cout << "\nHA FUCKING LOSER\n";
+		std::cout << "\nAww you lost!\n";
 	}
 }
